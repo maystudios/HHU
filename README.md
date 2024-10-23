@@ -9,24 +9,47 @@ Dieses Repository dient als Präsentation von Lösungen zu den Aufgaben und Übu
 ## Inhalte
 
 Das Repository ist in Unterordner organisiert, von denen jeder eine andere Programmieraufgabe oder ein Projekt darstellt. Hier ist eine kurze Übersicht über das, was Sie finden können:
+## Progra (Erste Hälfte des Semesters)
 
-- **binarysearchtree-maystudios**: Implementierung einer Datenstruktur für einen binären Suchbaum.
-- **bughunt-generics-maystudios**: Anwendung der Generics in Java zur Erstellung einer Fehlerverfolgungsanwendung.
-- **cylinder-maystudios**: Berechnung der Eigenschaften von Zylindern, einschließlich Volumen und Oberfläche.
-- **elektrische-widerstande-maystudios**: Anwendung zur Berechnung des elektrischen Widerstands in Schaltungen.
-- **examtask1-maystudios**: Beispielprüfung, die verschiedene Programmiertechniken demonstriert.
-- **interpolation-maystudios**: Implementierung von Interpolationsmethoden zur Schätzung von Werten zwischen Datenpunkten.
-- **junit-timeout**: Demonstration von JUnit-Tests mit Timeout-Funktionen.
-- **list-maystudios**: Verschiedene Listenoperationen und -manipulationen.
-- **listvsarray2-maystudios**: Vergleich zwischen Listen und Arrays hinsichtlich Leistung und Benutzerfreundlichkeit.
-- **matmul-maystudios**: Programm zur Durchführung der Matrixmultiplikation.
-- **messagesystem-maystudios**: Einfaches Nachrichtensystem, das objektorientierte Programmierung demonstriert.
-- **minicalculator-maystudios**: Grundlegende Rechneranwendung mit den wichtigsten Operationen.
-- **pascalsches-dreieck-maystudios**: Implementierung des Pascalschen Dreiecks zur Generierung von Koeffizienten.
-- **rechteck-maystudios**: Projekt, das sich auf die Eigenschaften und Berechnungen von Rechtecken konzentriert.
-- **references2-maystudios**: Demonstration von Referenztypen und deren Verwendung.
-- **rennsimulation-maystudios**: Simulation eines Rennspiels.
-- **zulassung-maystudios**: Projekt, das mit Zulassungsprozessen zu tun hat und Programmierlogik und Flusskontrolle zeigt.
+- junit-timeout
+- bughunt-generics-maystudios
+- zulassung-maystudios
+- list-maystudios
+- matmul-maystudios
+- binarysearchtree-maystudios
+- minicalculator-maystudios
+- cylinder-maystudios
+- interpolation-maystudios
+- messagesystem-maystudios
+- pascalsches-dreieck-maystudios
+- examtask1-maystudios
+- listvsarray2-maystudios
+- rennsimulation-maystudios
+- elektrische-widerstande-maystudios
+- rechteck-maystudios
+- references2-maystudios
+
+## Progra2 (Zweite Hälfte des Semesters)
+
+- kniffel-maystudios
+- cosinus-maystudios
+- minmax-maystudios
+- bughunt-plateau-chatgpt-maystudios
+- minesweeper-gap2-maystudios
+- lotto-maystudios
+- chess-maystudios
+- skytale-maystudios
+- vokabeln-maystudios
+- pq-maystudios
+- reverse-maystudios
+- codewort-maystudios
+- random-maystudios
+- bughunt-newton-maystudios
+- indentation-cosinus-maystudios
+- ballistic-maystudios
+- square-maystudios
+- compile-maystudios
+- ship-maystudios
 
 ## Hinweis
 
