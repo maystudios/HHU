@@ -1,0 +1,73 @@
+name: Automatische Tests
+
+on: 
+  push:
+    branches:
+    - '*'
+    - '!badges'
+  
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.repository }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Automatische Tests
+    runs-on: [self-hosted, linux, java]
+    steps:
+      - uses: mickem/clean-after-action@v1
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
+      - name: Prüfe Abgabe mit automatischen Tests
+        timeout-minutes: 10
+        run: |
+          cd test && gradle --console=rich test | tee tests.log
+          exit ${PIPESTATUS[0]}
+
+      - name: Bestimme Punktzahl anhand der Testergebnisse
+        id: testpoints
+        if: always()
+        run: |
+          echo "points=Fehler" >> $GITHUB_ENV
+          POINTS="$( grep --text -E "(SUCCESS|FAIL)" test/tests.log | sed -E "s/.*SUCCESS.*/ja/" | sed -E "s/.*FAIL.*/nein/" | head -n1 )"
+          echo "points=${POINTS}" >> $GITHUB_ENV
+          echo Code compiliert? $POINTS
+    
+      - name: Erstelle Verzeichnis für Punktzahl-Badge
+        if: always()
+        run: |
+          git checkout badges 2> /dev/null || git checkout -b badges
+          mkdir -p .github/badges
+        
+      - name: Erstelle Punktzahl-Badge
+        uses: emibcn/badge-action@v2.0.2
+        if: always()
+        with:
+          LABEL: 'Abgabe compiliert?'
+          STATUS: "${{env.points}}"
+          COLOR: ${{
+                env.points == 'ja' && 'green' ||
+                'red' }}
+          SCALE: 2
+          path: '.github/badges/points.svg'
+
+      - name: Übernehme neue Punktzahl-Badge
+        id: commitbadge
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add '.github/badges/points.svg'
+          git commit -m "Add/Update badge"
+        continue-on-error: true
+
+      - name: Lade neue Punktzahl-Badge hoch
+        uses: ad-m/github-push-action@master
+        if: always()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: badges

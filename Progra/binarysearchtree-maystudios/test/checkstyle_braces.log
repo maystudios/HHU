@@ -1,0 +1,14 @@
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [51ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [151ms][m[0K[36D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [251ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [351ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [451ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [551ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [651ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [751ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [851ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [951ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [1s][m[0K[33D[2B[2A[0K
+[1m> Task :compileJava[m[0K
+[0K
+[0K
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [1s][m[34D[1B[1m> :checkstyleMain > Resolve dependencies of :checkstyle[m[55D[1B[1A[1m> :checkstyleMain[m[0K[17D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [2s][m[34D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 3s[0K
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1BNote: /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/test/java/BinarySearchTreeTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+[2A[2K[1B[2K[1A

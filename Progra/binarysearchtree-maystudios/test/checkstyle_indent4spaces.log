@@ -1,0 +1,107 @@
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [51ms][m[35D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [151ms][m[37D[1B[1m> :checkstyleMain[m[0K[17D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [251ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [351ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [451ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [551ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [651ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [751ms][m[37D[2B[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:3:9: 'class def modifier' has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:5:1: 'member def modifier' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:6:1: 'member def modifier' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:8:1: 'ctor def modifier' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:9:1: 'ctor def' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:10:1: 'ctor def rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:11:1: 'class def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:13:1: 'member def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:14:1: 'member def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:16:1: 'method def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:18:1: 'if' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:19:1: 'if' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:20:1: 'if' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:21:1: 'if rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:23:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:24:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:25:1: 'while' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:26:1: 'while' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:27:1: 'if' has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:29:1: 'if' child has incorrect indentation level 0, expected level should be 16. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:30:1: 'if rcurly' has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:31:1: 'if' child has incorrect indentation level 0, expected level should be 16. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:32:1: 'if rcurly' has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:33:1: 'else' child has incorrect indentation level 0, expected level should be 16. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:34:1: 'else rcurly' has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:35:1: 'while rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:37:1: 'if' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:38:1: 'if' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:39:1: 'if rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:40:1: 'else' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:41:1: 'else rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:42:1: 'method def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:44:1: 'method def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:45:1: 'if' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:46:1: 'if' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:47:1: 'if rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:48:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:49:1: 'method def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:51:1: 'method def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:52:1: 'if' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:53:1: 'if' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:54:1: 'if rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:55:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:56:1: 'method def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:58:1: 'method def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:59:1: 'if' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:60:1: 'if' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:61:1: 'if rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:63:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:64:1: 'while' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:65:1: 'while' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:66:1: 'while rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:68:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:69:1: 'method def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:71:1: 'method def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:72:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:73:1: 'method def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:76:1: 'method def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:77:1: 'if' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:79:1: 'if' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:80:1: 'if rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:82:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:83:1: 'method def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:85:1: 'method def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:86:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:87:1: 'method def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:90:1: 'method def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:91:1: 'if' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:93:1: 'if' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:94:1: 'if[2A[0K
+[31;1m> Task :checkstyleMain[0;39m[31m FAILED[39m[0K
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:96:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:97:1: 'method def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:99:1: 'method def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:100:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:101:1: 'method def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:104:1: 'method def modifier' has incorrect indentation level 0, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:106:1: 'if' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:107:1: 'if' child has incorrect indentation level 0, expected level should be 12. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:108:1: 'if rcurly' has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:109:1: 'method def' child has incorrect indentation level 0, expected level should be 8. [Indentation]
+[ant:checkstyle] [WARN] /home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/BinarySearchTree.java:110:1: 'method def rcurly' has incorrect indentation level 0, expected level should be 4. [Indentation]
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':checkstyleMain'.
+[33m> [39mCheckstyle rule violations were found. See the report at: file:///home/markus/Dokument/git/lehre/progra-ws23/uebungsblaetter/aufgaben/binarysearchtree/task/test/build/reports/checkstyle/main.html
+  Checkstyle files with violations: 1
+  Checkstyle violations by severity: [warning:81]
+
+
+* Try:
+[33m> [39mRun with [1m--stacktrace[m option to get the stack trace.
+[33m> [39mRun with [1m--info[m or [1m--debug[m option to get more log output.
+[33m> [39mRun with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 1s
+[2A[2K[1B[2K[1A

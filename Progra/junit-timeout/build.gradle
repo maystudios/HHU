@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+compileTestJava.options.encoding = 'UTF-8'
+compileJava.options.encoding = 'UTF-8'
+
+javadoc {
+    options.encoding = 'UTF-8'
+}
+
+ext {
+    junitJupiterVersion = '5.9.0'
+    junitPlatformVersion = '1.9.0'
+    assertjVersion = '3.23.1'
+}
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url "https://plugins.gradle.org/m2/"
+    }
+}
+
+dependencies {
+    implementation "org.junit.jupiter:junit-jupiter-api:${property('junitJupiterVersion')}"
+    implementation "org.junit.jupiter:junit-jupiter-engine:${property('junitJupiterVersion')}"
+    implementation "org.junit.jupiter:junit-jupiter-params:${property('junitJupiterVersion')}"
+    implementation "org.junit.platform:junit-platform-launcher:${property('junitPlatformVersion')}"
+    implementation "org.junit.platform:junit-platform-engine:${property('junitPlatformVersion')}"
+    implementation "org.junit.platform:junit-platform-commons:${property('junitPlatformVersion')}"
+    implementation "org.assertj:assertj-core:${property('assertjVersion')}"
+}
+
+test {
+    systemProperty "file.encoding", "utf-8"
+    useJUnitPlatform()
+    testLogging {
+        events "PASSED", "SKIPPED", "FAILED"
+        exceptionFormat = 'full'
+    }
+    systemProperty "junit.jupiter.execution.timeout.default", "10"
+    systemProperty "junit.jupiter.execution.timeout.thread.mode.default", "SEPARATE_THREAD"
+}
+
+wrapper {
+    gradleVersion = "7.4.0"
+}

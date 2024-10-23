@@ -1,0 +1,71 @@
+name: Automatische Tests
+
+on: 
+  push:
+    branches:
+    - '*'
+    - '!badges'
+
+jobs:
+  build:
+    name: Automatische Tests
+    runs-on: [self-hosted, linux, java]
+    steps:
+      - uses: mickem/clean-after-action@v1
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
+      - name: Prüfe Abgabe mit automatischen Tests
+        timeout-minutes: 10
+        run: |
+          cd test && gradle --console=rich test | tee tests.log
+          exit ${PIPESTATUS[0]}
+
+      - name: Bestimme Punktzahl anhand der Testergebnisse
+        id: testpoints
+        if: always()
+        run: |
+          echo "##[set-output name=points;]Fehler beim automatischen Bestimmen der Punktzahl"
+          POINTS="$( grep "Test.*Punk" test/tests.log | grep "PASSED" | sed -E "s/.*\[.*([0-9]+) Punkte?\].*/\1/" | paste -sd+ | sed "s/^$/0/" | bc )"
+          echo "##[set-output name=points;]${POINTS}"
+          TOTALPOINTS="$( grep -R "\@DisplayName" test/java | sed -E "s/.*\[.*([0-9]+) Punkte?\].*/\1/" | paste -sd+ | bc )"
+          echo "##[set-output name=totalpoints;]${TOTALPOINTS}"
+          echo ${POINTS} / ${TOTALPOINTS} Punkte erreicht
+    
+      - name: Erstelle Verzeichnis für Punktzahl-Badge
+        if: always()
+        run: |
+          git checkout badges 2> /dev/null || git checkout -b badges
+          mkdir -p .github/badges
+        
+      - name: Erstelle Punktzahl-Badge
+        uses: emibcn/badge-action@v1
+        if: always()
+        with:
+          LABEL: 'Voraussichtliche Punktzahl'
+          STATUS: ${{join(steps.testpoints.outputs.*, ' / ')}}
+          COLOR: ${{
+                steps.testpoints.outputs.points == 0 && 'red' ||
+                steps.testpoints.outputs.points == steps.testpoints.outputs.totalpoints && 'green' ||
+                'yellow' }}
+          SCALE: 2
+          path: '.github/badges/points.svg'
+
+      - name: Übernehme neue Punktzahl-Badge
+        id: commitbadge
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add '.github/badges/points.svg'
+          git commit -m "Add/Update badge"
+        continue-on-error: true
+
+      - name: Lade neue Punktzahl-Badge hoch
+        uses: ad-m/github-push-action@master
+        if: always()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: badges
+          force: true

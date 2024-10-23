@@ -1,0 +1,4 @@
+cd /home/jinora/progra/Blatt01
+ls // bei Linux um den inhalt zu listen oder "dir" bei Windows
+javac Hello.java
+java Hello

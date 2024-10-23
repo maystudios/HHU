@@ -1,0 +1,20 @@
+<svg width="387.4" height="40" viewBox="0 0 1937 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Voraussichtliche Punktzahl: 5 / 5">
+  <title>Voraussichtliche Punktzahl: 5 / 5</title>
+  <linearGradient id="a" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="m"><rect width="1937" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#m)">
+    <rect width="1569" height="200" fill="#555"/>
+    <rect width="368" height="200" fill="#3C1" x="1569"/>
+    <rect width="1937" height="200" fill="url(#a)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="1469" fill="#000" opacity="0.25">Voraussichtliche Punktzahl</text>
+    <text x="50" y="138" textLength="1469">Voraussichtliche Punktzahl</text>
+    <text x="1624" y="148" textLength="268" fill="#000" opacity="0.25">5 / 5</text>
+    <text x="1614" y="138" textLength="268">5 / 5</text>
+  </g>
+  
+</svg>

@@ -1,0 +1,73 @@
+plugins {
+    id "io.github.krakowski.challenge" version "0.2.3" apply false
+}
+
+apply plugin: 'io.github.krakowski.challenge'
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+compileTestJava.options.encoding = 'UTF-8'
+compileJava.options.encoding = 'UTF-8'
+
+javadoc {
+    options.encoding = 'UTF-8'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs '..'
+            exclude 'old'
+            exclude 'alternativloesung_deepcopy'
+            exclude 'alternativloesung_mergesort'
+            exclude 'java'
+        }
+    }
+    test {
+        java {
+            srcDirs 'java'
+        }
+    }
+}
+
+ext {
+    junitJupiterVersion = '5.9.1'
+    junitPlatformVersion = '1.9.1'
+    assertjVersion = '3.23.1'
+}
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url "https://plugins.gradle.org/m2/"
+    }
+}
+
+dependencies {
+    implementation files('testing-1.0.4.jar')
+    implementation "org.junit.jupiter:junit-jupiter-api:${property('junitJupiterVersion')}"
+    implementation "org.junit.jupiter:junit-jupiter-engine:${property('junitJupiterVersion')}"
+    implementation "org.junit.jupiter:junit-jupiter-params:${property('junitJupiterVersion')}"
+    implementation "org.junit.platform:junit-platform-launcher:${property('junitPlatformVersion')}"
+    implementation "org.junit.platform:junit-platform-engine:${property('junitPlatformVersion')}"
+    implementation "org.junit.platform:junit-platform-commons:${property('junitPlatformVersion')}"
+    implementation "org.assertj:assertj-core:${property('assertjVersion')}"
+}
+
+test {
+    systemProperty "file.encoding", "utf-8"
+    useJUnitPlatform()
+    testLogging {
+        events "PASSED", "SKIPPED", "FAILED"
+        exceptionFormat = 'full'
+    }
+    timeout = Duration.ofSeconds(15)
+    systemProperty "junit.jupiter.execution.timeout.default", "2"
+    systemProperty "junit.jupiter.execution.timeout.thread.mode.default", "SEPARATE_THREAD"
+}
+
+wrapper {
+    gradleVersion = "6.0.1"
+}

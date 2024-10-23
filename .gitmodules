@@ -1,0 +1,108 @@
+[submodule "Progra/binarysearchtree-maystudios"]
+	path = Progra/binarysearchtree-maystudios
+	url = D:/Development/HHU/Progra/binarysearchtree-maystudios
+[submodule "Progra/bughunt-generics-maystudios"]
+	path = Progra/bughunt-generics-maystudios
+	url = D:/Development/HHU/Progra/bughunt-generics-maystudios
+[submodule "Progra/cylinder-maystudios"]
+	path = Progra/cylinder-maystudios
+	url = D:/Development/HHU/Progra/cylinder-maystudios
+[submodule "Progra/elektrische-widerstande-maystudios"]
+	path = Progra/elektrische-widerstande-maystudios
+	url = D:/Development/HHU/Progra/elektrische-widerstande-maystudios
+[submodule "Progra/examtask1-maystudios"]
+	path = Progra/examtask1-maystudios
+	url = D:/Development/HHU/Progra/examtask1-maystudios
+[submodule "Progra/interpolation-maystudios"]
+	path = Progra/interpolation-maystudios
+	url = D:/Development/HHU/Progra/interpolation-maystudios
+[submodule "Progra/junit-timeout"]
+	path = Progra/junit-timeout
+	url = D:/Development/HHU/Progra/junit-timeout
+[submodule "Progra/list-maystudios"]
+	path = Progra/list-maystudios
+	url = D:/Development/HHU/Progra/list-maystudios
+[submodule "Progra/listvsarray2-maystudios"]
+	path = Progra/listvsarray2-maystudios
+	url = D:/Development/HHU/Progra/listvsarray2-maystudios
+[submodule "Progra/matmul-maystudios"]
+	path = Progra/matmul-maystudios
+	url = D:/Development/HHU/Progra/matmul-maystudios
+[submodule "Progra/messagesystem-maystudios"]
+	path = Progra/messagesystem-maystudios
+	url = D:/Development/HHU/Progra/messagesystem-maystudios
+[submodule "Progra/minicalculator-maystudios"]
+	path = Progra/minicalculator-maystudios
+	url = D:/Development/HHU/Progra/minicalculator-maystudios
+[submodule "Progra/pascalsches-dreieck-maystudios"]
+	path = Progra/pascalsches-dreieck-maystudios
+	url = D:/Development/HHU/Progra/pascalsches-dreieck-maystudios
+[submodule "Progra/rechteck-maystudios"]
+	path = Progra/rechteck-maystudios
+	url = D:/Development/HHU/Progra/rechteck-maystudios
+[submodule "Progra/references2-maystudios"]
+	path = Progra/references2-maystudios
+	url = D:/Development/HHU/Progra/references2-maystudios
+[submodule "Progra/rennsimulation-maystudios"]
+	path = Progra/rennsimulation-maystudios
+	url = D:/Development/HHU/Progra/rennsimulation-maystudios
+[submodule "Progra/zulassung-maystudios"]
+	path = Progra/zulassung-maystudios
+	url = D:/Development/HHU/Progra/zulassung-maystudios
+[submodule "Progra2/ballistic-maystudios"]
+	path = Progra2/ballistic-maystudios
+	url = D:/Development/HHU/Progra2/ballistic-maystudios
+[submodule "Progra2/bughunt-newton-maystudios"]
+	path = Progra2/bughunt-newton-maystudios
+	url = D:/Development/HHU/Progra2/bughunt-newton-maystudios
+[submodule "Progra2/bughunt-plateau-chatgpt-maystudios"]
+	path = Progra2/bughunt-plateau-chatgpt-maystudios
+	url = D:/Development/HHU/Progra2/bughunt-plateau-chatgpt-maystudios
+[submodule "Progra2/chess-maystudios"]
+	path = Progra2/chess-maystudios
+	url = D:/Development/HHU/Progra2/chess-maystudios
+[submodule "Progra2/codewort-maystudios"]
+	path = Progra2/codewort-maystudios
+	url = D:/Development/HHU/Progra2/codewort-maystudios
+[submodule "Progra2/compile-maystudios"]
+	path = Progra2/compile-maystudios
+	url = D:/Development/HHU/Progra2/compile-maystudios
+[submodule "Progra2/cosinus-maystudios"]
+	path = Progra2/cosinus-maystudios
+	url = D:/Development/HHU/Progra2/cosinus-maystudios
+[submodule "Progra2/indentation-cosinus-maystudios"]
+	path = Progra2/indentation-cosinus-maystudios
+	url = D:/Development/HHU/Progra2/indentation-cosinus-maystudios
+[submodule "Progra2/kniffel-maystudios"]
+	path = Progra2/kniffel-maystudios
+	url = D:/Development/HHU/Progra2/kniffel-maystudios
+[submodule "Progra2/lotto-maystudios"]
+	path = Progra2/lotto-maystudios
+	url = D:/Development/HHU/Progra2/lotto-maystudios
+[submodule "Progra2/minesweeper-gap2-maystudios"]
+	path = Progra2/minesweeper-gap2-maystudios
+	url = D:/Development/HHU/Progra2/minesweeper-gap2-maystudios
+[submodule "Progra2/minmax-maystudios"]
+	path = Progra2/minmax-maystudios
+	url = D:/Development/HHU/Progra2/minmax-maystudios
+[submodule "Progra2/pq-maystudios"]
+	path = Progra2/pq-maystudios
+	url = D:/Development/HHU/Progra2/pq-maystudios
+[submodule "Progra2/random-maystudios"]
+	path = Progra2/random-maystudios
+	url = D:/Development/HHU/Progra2/random-maystudios
+[submodule "Progra2/reverse-maystudios"]
+	path = Progra2/reverse-maystudios
+	url = D:/Development/HHU/Progra2/reverse-maystudios
+[submodule "Progra2/ship-maystudios"]
+	path = Progra2/ship-maystudios
+	url = D:/Development/HHU/Progra2/ship-maystudios
+[submodule "Progra2/skytale-maystudios"]
+	path = Progra2/skytale-maystudios
+	url = D:/Development/HHU/Progra2/skytale-maystudios
+[submodule "Progra2/square-maystudios"]
+	path = Progra2/square-maystudios
+	url = D:/Development/HHU/Progra2/square-maystudios
+[submodule "Progra2/vokabeln-maystudios"]
+	path = Progra2/vokabeln-maystudios
+	url = D:/Development/HHU/Progra2/vokabeln-maystudios

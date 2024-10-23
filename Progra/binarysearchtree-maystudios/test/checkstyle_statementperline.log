@@ -1,0 +1,9 @@
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [57ms][m[35D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [157ms][m[37D[1B[1m> :checkstyleMain[m[0K[17D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [257ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [357ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [457ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [557ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [657ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [757ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [857ms][m[37D[2B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [957ms][m[37D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 1s[0K
+2 actionable tasks: 1 executed, 1 up-to-date
+Daemon will be stopped at the end of the build after running out of JVM memory
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :checkstyleMain[m[17D[1B[2A[2K[1B[2K[1A

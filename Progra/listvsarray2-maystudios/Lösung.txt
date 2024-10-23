@@ -1,0 +1,19 @@
+Für Lisa (Kassensystem):
+
+Empfohlene Datenstruktur: Verkettete Liste
+
+Begründung:
+
+    Dynamische Größe: Da die Anzahl der Produkte, die Lisa einlesen muss, im Voraus nicht bekannt ist, ist eine verkettete Liste geeignet, weil sie dynamisch wachsen kann, ohne dass eine Neuallokation des gesamten Speicherbereichs erforderlich ist, wie es bei einem Array der Fall wäre.
+    Einfaches Einfügen: Produkte können einfach am Ende der Liste eingefügt werden, ohne die anderen Elemente zu verschieben.
+    Speichernutzung: Verkettete Listen nutzen den Speicher effizient, da nur so viel Speicher verwendet wird, wie benötigt wird.
+
+Für Hilmar (Helligkeitssensor-Daten):
+
+Empfohlene Datenstruktur: Array
+
+Begründung:
+
+    Feste Größe: Die Anzahl der Datenpunkte (1.000.000) ist bekannt, was die Verwendung eines Arrays mit fester Größe ermöglicht.
+    Schneller Zugriff: Arrays bieten einen schnellen Zugriff auf Elemente über Indizes. Da Hilmar oft auf verschiedene Indizes zugreifen muss, ist dies ein entscheidender Vorteil.
+    Speichereffizienz: Arrays speichern Elemente in einem kontinuierlichen Speicherblock, was die Speichereffizienz erhöht und den Zugriff beschleunigt, insbesondere bei großen Datenmengen.
